@@ -1,0 +1,26 @@
+// Programa cálculo da área de um triângulo
+package exemplo3;
+
+import java.util.Scanner;
+
+public class Exemplo3
+{
+
+ 		public static void main(String[] args)
+	{
+
+		System.out.print("Este programa calcula a ");
+		System.out.println("área de um triângulo!");
+		double base;
+		double altura;
+		double area;
+		System.out.print("Digite o valor da base: ");
+		Scanner leitura = new Scanner(System.in);
+		base = leitura.nextDouble();
+		System.out.print("Digite o valor da altura: ");
+		altura = leitura.nextDouble();
+		area = (base*altura)/2;
+		System.out.println("A área do triângulo é: " + area );
+ 	}
+
+}

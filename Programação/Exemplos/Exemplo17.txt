@@ -1,0 +1,27 @@
+package exemplo.pkg17;
+
+import java.util.Scanner;
+
+public class Exemplo17 
+{
+
+    
+    public static void main(String[] args) 
+    {
+        
+        int x, y, r;
+        Scanner leitura = new Scanner(System.in);
+        
+        for(int i = 1; i <= 4; i = i + 1)
+        {
+            System.out.print("Digite x: ");
+            x = leitura.nextInt();
+            System.out.print("Digite y: ");
+            y = leitura.nextInt();
+            r = x * y;
+            System.out.println("Resultado = " + r);
+        }
+        
+    }
+    
+}

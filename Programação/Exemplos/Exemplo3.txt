@@ -1,0 +1,31 @@
+/*
+programa de adição
+ */
+package projeto.pkg2;
+
+import java.util.Scanner;
+
+public class Projeto2 
+{
+
+
+    public static void main(String[] args) 
+    {
+        double a;
+        double b;
+        double soma;
+        
+        System.out.println("Esse programa soma dois números inteiros");
+        
+        Scanner leitura = new Scanner(System.in);
+        System.out.print("Digite o primeiro número: ");
+        a = leitura.nextDouble();
+        System.out.print("Digite o segundo número: ");
+        b = leitura.nextDouble();
+        soma = a + b;
+        System.out.println("Resultado: " + soma);
+        
+        
+    }
+    
+}

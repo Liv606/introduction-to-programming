@@ -1,0 +1,23 @@
+// Programa raiz quadrada
+package exemplo4;
+
+import java.util.Scanner;
+
+public class Exemplo4
+{
+
+ 	public static void main(String[] args)
+{
+
+	System.out.print("Este programa calcula a ");
+	System.out.println("raiz quadrada de um número!");
+	double x;
+	double y;
+	System.out.print("Digite um número: ");
+	Scanner leitura = new Scanner(System.in);
+	x = leitura.nextDouble();
+	y = Math.sqrt(x);
+	System.out.println("A raiz quadrada é: " + y );
+ }
+
+}

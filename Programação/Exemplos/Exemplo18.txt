@@ -1,0 +1,28 @@
+package exemplo18;
+
+import java.util.Scanner;
+
+public class Exemplo18 
+{
+
+   
+    public static void main(String[] args) 
+    {
+        
+        int x, y, r;
+        Scanner leitura = new Scanner(System.in);
+        
+        int i = 1;
+        while(i <= 4){
+            System.out.print("Digite x: ");
+            x = leitura.nextInt();
+            System.out.print("Digite y: ");
+            y = leitura.nextInt();
+            r = x * y;
+            System.out.println("Resultado = " + r);
+            i = i + 1;
+        }
+        
+    }
+    
+}

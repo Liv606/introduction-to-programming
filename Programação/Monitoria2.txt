@@ -1,0 +1,57 @@
+package monitoria;
+
+
+public class Monitoria 
+{
+
+    
+    public static void main(String[] args) 
+    {
+        
+        //maior >
+        //menor <
+        //maior ou igual >=
+        //menor ou igual <=
+        //testa igual ==
+        //testa diferente !=
+        //mostra o resto System.out.println(8%2);
+        
+/*       for(int i = 0;i<10;i++)
+       {
+       
+       if(i%2==0){
+           System.out.println(i);
+           
+       }    
+           
+       }*/
+        
+   /*     int i = 3;
+        if(i>2 && i<4)
+        {
+                                              && = e
+            System.out.println("oi");
+            
+        } */
+        
+  /*      int i = 5;
+        if(i<2 || i>4)
+        {
+                                            || = ou
+            System.out.println("oi");
+            
+        } */
+        
+        int i = 3;
+        if(i==0)
+        {
+            
+            System.out.println("sou igual a zero");
+            
+        }else{
+            System.out.println("sou diferente de zero");
+        }
+        
+    }
+    
+}

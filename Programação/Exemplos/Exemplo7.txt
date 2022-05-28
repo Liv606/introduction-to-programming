@@ -1,0 +1,24 @@
+package exemplo5;
+
+import java.util.Scanner;
+
+public class Exemplo5
+{
+
+ 	public static void main(String[] args)
+ {
+
+	System.out.print("Este programa calcula a ");
+	System.out.println("elevado a b!");
+	double a;
+	double b;
+	double y;
+	Scanner leitura = new Scanner(System.in);
+	System.out.print("Digite a: ");
+	a = leitura.nextDouble();
+	System.out.print("Digite b: ");
+	b = leitura.nextDouble();
+	y = Math.pow(a, b);
+	System.out.println("a elevado a b = " + y );
+ }
+} 
